@@ -1,14 +1,14 @@
-@use './config-scss/variables.scss';
-@use './config-scss/reset.scss';
-@use './config-scss/rem-calc.scss';
+@import './config-scss/variables.scss';
+@import './config-scss/reset.scss';
+@import './config-scss/rem-calc.scss';
 
 main{
-    max-width: rem-calc(600);
+    width: rem-calc(600);
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 html{
-    background-color: var(--primary-color);
+    background: var(--primary-color) url('./assets/pokebola.png') repeat 5px 5px;
     font-family: 'Roboto', sans-serif;
 }

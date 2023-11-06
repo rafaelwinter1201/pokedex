@@ -1,4 +1,4 @@
-@function rem-cacl($size) {
-    $value: size / 16;
+@function rem-calc($size) {
+    $value: $size / 16;
     @return #{$value}rem
 };
